@@ -31,7 +31,7 @@ Workshop 02 - CSS Fundamentals/ index.html style.css images/ Khalil7.jpeg
 ---
 
 ## 🌍 Live Demo
-🔗 [View on GitHub Pages](https://khalilmuhumed.github.io/css-fundamentals/)
+🔗 [View on GitHub Pages](https://github.com/khalilmuhumed/css-fundamentals.git)
 
 ---
 
