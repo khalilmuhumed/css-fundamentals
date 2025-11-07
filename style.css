@@ -1,0 +1,98 @@
+/* 
+=========================================
+Workshop 02 - CSS Fundamentals
+Author: Khalil Muhumed
+Tasks: 2, 3, 4, 5
+=========================================
+*/
+
+/* Task 2: Body & Text styles */
+body {
+    background-color: #eef2f3; /* taustan väri */
+    color: #222; /* tekstin väri */
+    font-size: 16px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Otsikot */
+h1, h2 {
+    color: #004080; /* otsikoiden väri */
+}
+
+/* Kappaleiden ulkoasu */
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Linkkien tyyli */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Task 3: Padding ja margin - laatikko */
+.content-box {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 20px; /* sisätila */
+    margin: 20px auto; /* ulkotila ja keskitys */
+    width: 80%;
+    border-radius: 8px;
+}
+
+/* Task 4: Taulukon muotoilu */
+table {
+    width: 100%;
+    border-collapse: collapse; /* yhdistää solujen reunat */
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Task 4: Lomakkeen muotoilu */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: #eaf4ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

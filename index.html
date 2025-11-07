@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalil Muhumed - CSS Fundamentals</title>
+
+    <!-- Task 1: Internal CSS (tyyli suoraan HTML-tiedoston head-osassa) -->
+    <style>
+        h1 {
+            color: darkgreen;
+            text-align: center;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 20px;
+        }
+    </style>
+
+    <!-- Task 1: External CSS (linkitetään ulkoinen tyyli, style.css) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Task 1: Inline CSS (tyyli suoraan elementin sisällä) -->
+    <h1 style="border-bottom: 3px solid #4CAF50;">Welcome to My CSS Page</h1>
+
+    <!-- Perus sisältö -->
+    <h2>Khalil Muhumed</h2>
+    <p>
+        Hi! I’m Khalil Muhumed, a Business Information Technology student at Laurea University of Applied Sciences. 
+        I’m passionate about web development, automation, and football coaching.
+    </p>
+
+    <!-- Kuva: varmista että tiedostonimi täsmää images-kansion kuvatiedoston kanssa -->
+    <img src="images/Khalil7.jpeg" alt="Photo of Khalil Muhumed" width="250">
+
+    <hr>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Playing and coaching football</li>
+        <li>Coding and building small web apps</li>
+        <li>Learning about cybersecurity</li>
+        <li>Exploring new AI tools</li>
+    </ul>
+
+    <hr>
+
+    <h2>Favorite Website</h2>
+    <p>Visit my university’s website here: 
+        <a href="https://www.laurea.fi" target="_blank">Laurea University of Applied Sciences</a>
+    </p>
+
+    <hr>
+
+    <!-- Task 3: Uusi div-elementti, johon lisätään padding ja margin -->
+    <div class="content-box">
+        <h3>Sample Content Box</h3>
+        <p>This is a styled div element with padding, margin, and background color.</p>
+    </div>
+
+    <hr>
+
+    <h2>My Current Courses</h2>
+    <!-- Task 4: Taulukko, joka muotoillaan CSS:llä -->
+    <table class="course-table">
+        <tr>
+            <th>Course Name</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Web Development Basics</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>Linux and System Administration</td>
+            <td>Completed</td>
+        </tr>
+        <tr>
+            <td>Process Automation Project</td>
+            <td>In Progress</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Task 4: Lomake, joka muotoillaan CSS:llä -->
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <p><em>Validated with W3C CSS and HTML validators — no errors found.</em></p>
+</body>
+</html>
